@@ -85,7 +85,8 @@ then
 	--enable-languages=c,c++,objc \
 	--enable-lto $plugin_ld \
 	--with-cpu=750 \
-	--disable-nls --disable-shared --enable-threads --disable-multilib \
+	--enable-threads=dkp \
+	--disable-nls --disable-shared --disable-multilib \
 	--disable-win32-registry \
 	--disable-libstdcxx-pch \
 	--disable-libstdcxx-verbose \
